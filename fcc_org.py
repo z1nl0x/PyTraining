@@ -50,22 +50,22 @@
 #print('All Done!')
 
 
-astr = 'Hello Kreft'
-try:
-    istr = int(astr)
-except:
-    istr = -1
-print('First', istr)
+#astr = 'Hello Kreft'
+#try:
+#    istr = int(astr)
+#except:
+#    istr = -1
+#print('First', istr)
+#
+#astr = '123'
+#
+#try:
+#    istr = int(astr)
+#except:
+#    istr = -1
+#print('Second', istr)
 
-astr = '123'
 
-try:
-    istr = int(astr)
-except:
-    istr = -1
-print('Second', istr)
-
- 
 
 
 
