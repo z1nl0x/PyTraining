@@ -68,6 +68,42 @@
 
 # Testando git command
 
+#def greet(lang):
+#    if lang == 'es':
+#        return 'Hola'
+#    elif lang == 'fr':
+#        return 'Bonjour'
+#    else:
+#        return 'Hello'
+#
+#print(greet('en'), 'Paulo')
+
+
+#n = 5
+#while n > 0:
+#    print(n)
+#    n = n - 1
+#
+#print('Blastoff!')
+#print(n)
+
+
+
+#for i in [5, 4, 3, 2, 1]:
+#    print(i)
+#print('Blastoff!')
+
+
+#friends = ['Joseph', 'Glenn', 'Sally']
+#for friend in friends:
+#    print('Happy New Year:', friend)
+#print('Done!')
+
+
+
+
+
+
 
 
 
