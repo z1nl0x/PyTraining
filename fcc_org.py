@@ -128,17 +128,66 @@
 #print('After', found)
 
 
-smallest = None
-print('Before')
-for value in [9, 41, 12, 3, 74, 15]:
-    if smallest is None:
-        smallest = value
-    elif value < smallest:
-        smallest = value
-    print(smallest, value)
-print('After', smallest)
+#smallest = None
+#print('Before')
+#for value in [9, 41, 12, 3, 74, 15]:
+#    if smallest is None:
+#        smallest = value
+#    elif value < smallest:
+#        smallest = value
+#    print(smallest, value)
+#print('After', smallest)
 
           
+#fruit = 'orange'
+#index = 0
+#while index < len(fruit):
+#    letter = fruit[index]
+#    print(index, letter)
+#    index = index + 1
+
+
+#for letter in fruit:
+#    print(letter)
+
+
+#word = 'testando'
+#count = 0
+#for letter in word:
+#    if letter == 't':
+#        count = count + 1
+#print(count)
+
+
+#stuff = 'Hello World'
+#type(stuff)
+#dir(stuff)
+
+# FILE PROCESSING
+
+
+#fhand = open('mbox.txt')
+#print(fhand)
+
+#count = 0
+#for line in fhand:
+#    count = count + 1
+#print('Line Count:', count)
+
+
+#fhand = open('mbox.txt')
+#inp = fhand.read()
+#print(len(inp))
+#print(inp[:20])
+
+
+fhand = open('mbox.txt')
+for line in fhand:
+    line = line.rstrip()
+    if line.startswith('Test'):
+        print(line)
+
+
 
 
 

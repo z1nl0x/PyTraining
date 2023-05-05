@@ -1,0 +1,6 @@
+Testando tratamento de strings dentro de arquivos.
+Podemos testar novamente com outros tipos de dados.
+Aprendendo tudo sobre manipulação de arquivos com python.
+O Curso do FreeCodeCamp é ótimo.
+Finalizando teste.
+
