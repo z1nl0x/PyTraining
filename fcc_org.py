@@ -181,16 +181,52 @@
 #print(inp[:20])
 
 
-fhand = open('mbox.txt')
-for line in fhand:
-    line = line.rstrip()
-    if line.startswith('Test'):
-        print(line)
+#fhand = open('mbox.txt')
+#for line in fhand:
+#    line = line.rstrip()
+#    if line.startswith('Test'):
+#        print(line)
 
 
+#fname = input('Enter the file name: ')
+#try:
+#    fhand = open(fname)
+#except:
+#    print('File cannot be opened: ', fname)
+#    quit()
+
+#count = 0
+#for line in fhand:
+#    if line.startswith('Subject'):
+#        count = count + 1
+#print('There were', count, 'subject lines in ', fname)
 
 
+#friends = ['Joseph', 'Glenn', 'Sally']
+#for friend in friends:
+#    print('Happy new year: ', friend)
+#print('Done!')
+
+#z = ['Joseph', 'Glenn', 'Sally']
+#for x in z:
+#    print('Happy new year: ', x)
+#print('Done!')
+
+# Strings are immutable
+#fruit = 'Apple'
+#fruit[0] = 'a'
 
 
+#x = fruit.lower()
+#print(x)
 
+#lotto = [2, 14, 26, 41, 63]
+#print(lotto)
+#lotto[2] = 28
+#print(lotto)
+
+friends = ['Joseph', 'Glenn', 'Sally']
+print(len(friends))
+
+print(range(len(friends)))
 
