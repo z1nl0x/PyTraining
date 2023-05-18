@@ -225,8 +225,22 @@
 #lotto[2] = 28
 #print(lotto)
 
-friends = ['Joseph', 'Glenn', 'Sally']
-print(len(friends))
+#friends = ['Joseph', 'Glenn', 'Sally']
+#print(len(friends))
 
-print(range(len(friends)))
+#print(range(len(friends)))
+
+
+#stuff = list()
+#stuff.append('book')
+#stuff.append(99)
+#print(stuff)
+
+
+friends = ['Joseph', 'Glenn', 'Sally']
+friends.sort()
+print(friends)
+
+
+
 
